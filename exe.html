@@ -7,27 +7,52 @@
     <title>Document</title>
 </head>
 <style>
-div > p {
-    font-family : Arial;
-}
-
-h1{ 
-    color: blueviolet;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-h2{
+    div p{ 
+    background-color: cadetblue; 
     color: black;
-    background-color: blanchedalmond;
-    background-image: url(BG.png);
-    background-repeat: no-repeat;
-    background-position:right top ;
-}
+    font-size: medium; 
+    } 
+    div ~ h2 { 
+    background-color:darkviolet;
+    color:black;
+    font-size: medium; 
+    }
+    div + h3 {
+        background-color: deepskyblue;
+        border-color: fuchsia;
+        color: indigo;
+        font-size: x-large;
+    }
+    h1 {
+            color: wheat;
+            background-color: rgb(189, 43, 87);
+        }
 
+        body {
+            background-color: rgb(182, 102, 128);
+            background-position: right top;
+        }
 </style>
+
 <body>
-    <p>Web design</p>
-    <h1>MY HOMEPAGE</h1>
-    <h2>child selector</h2>
+    <h1>Descendant Selector</h1>
+    <p>HIDAYATI AZIQAH</p>
+<div>
+    <p>P1</p>
+    <p>P2</p> 
+    <section><p>P3</p></section>
+ </div>
+
+  <div> 
+      <h1>Sibling selector</h1>
+ </div> 
+ <h2>The general sibling selector (~)</h2>
+ <h2>18DDT19F1033</h2>
+
+ <div>
+    <h1>12/04/2020</h1>
+</div>
+    <h3>Descendant & Sibling selector</h3>
+    <h3>WEB DESIGN</h3>
 </body>
 </html>
